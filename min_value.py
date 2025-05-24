@@ -27,7 +27,7 @@ def find_min_value(num_list):
         if number < current_min_value:
             # Set the current minimum
             # value to the number.
-            current_in_value = number
+            current_min_value = number
 
     # Return the resulting minimum value.
     return current_min_value
