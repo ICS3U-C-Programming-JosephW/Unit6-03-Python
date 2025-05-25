@@ -16,8 +16,10 @@ import random
 # number out of a number list.
 def find_min_value(num_list):
     # Initialize the current minimum
-    # number to zero to use it later.
-    current_min_value = 0
+    # number as one greater than the
+    # maximum number so that it always
+    # gets reinitialized.
+    current_min_value = constants.MAX_NUM + 1
 
     # Use a for..in loop to loop over
     # every number in the list.
